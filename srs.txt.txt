@@ -1,0 +1,110 @@
+ONLINE PROJECT MANAGMENT SRS DOCUMENT
+Online Project Management System - Software Requirements Specification
+1.Introduction-
+Purpose-
+The purpose of this document is to outline the functional and non-functional requirements for an online project management system. The system aims to provide a collaborative platform for managing projects, tasks, and team members efficiently.
+
+Scope-
+The online project management system will allow users to create projects, assign tasks, monitor progress, and facilitate communication between team members. It will also provide features for generating reports and analyzing project data.
+
+Intended Audience-
+The intended audience for this document includes developers, project managers, quality assurance teams, and stakeholders involved in the development and implementation of the online project management system.
+
+
+
+2.Functinal Requirements-
+Product Perspective-
+The online project management system will be a standalone web-based application. It will interact with users through a web interface and communicate with the backend database for storing and retrieving project-related data.
+
+Product Features-
+User Registration and Authentication:Users can create new accounts and authenticate using their credentials.
+
+Project Management-
+Users can create projects, assign team members, and set project details.
+Projects can have start and end dates, descriptions, and priorities.
+
+Task Management-
+Users can create tasks within projects, assign them to team members, and set task details.
+Tasks can have due dates, descriptions, priorities, and status-[ to do,in progress,completed].
+
+Team Collaboration-
+Users can communicate with team members through a messaging system.
+Users can share files and documents related to projects and tasks.
+Reporting and Analytics:
+Generate project status reports, task progress reports, and team member performance reports.
+
+
+Administrators:
+Responsible for system configuration and user management.
+
+Project Managers:
+Create and manage projects, tasks, and team members.
+Monitor project progress and generate reports.
+
+Team Members:
+Assigned tasks and collaborate with other team members.
+Update task status and communicate project-related information.
+
+Registration:
+Users must be able to register by providing a unique username, email address, and password.
+Users must be able to log in using their registered credentials.
+The system should provide password recovery options.
+
+Project Management:
+This feature enables users to create and manage projects, assign team members, and set project details.
+Users should be able to create new projects by providing a project name, description, start date, end date, and priority.
+Projects should have a unique identifier.
+Users should be able to assign team members to projects.
+
+Task Management-
+This feature allows users to create and manage tasks within projects, assign them to team members, and set task details.
+Users should be able to create tasks within a project by providing a task name, description, due date, priority, and assignee.
+Tasks should have a unique identifier.
+Users should be able to update task status (e.g., "to do," "in progress," "completed").
+
+Team Collaboration-
+This feature facilitates communication and collaboration among team members.
+Users should be able to send messages to other team members.
+Users should be able to share files and documents related to projects and tasks.
+
+Reporting and Analytics-
+This feature provides reporting capabilities and project analytics.
+The system should generate project status reports, task progress reports, and team member performance reports.
+Reports should be exportable in common formats (e.g., PDF, CSV).
+The system should provide data visualization for project analytics and performance tracking.
+
+
+4. Non-functional Requirements
+Performance:
+The system should support concurrent user access and respond within a reasonable time frame.
+The system should handle a large number of projects, tasks, and users efficiently.
+
+Security:
+User authentication should be secure, with password encryption and protection against common security threats (e.g., SQL injection, cross-site scripting).
+Access to sensitive data should be restricted based on user roles and permissions.
+
+Usability:
+The user interface should be intuitive and easy to navigate.
+The system should provide appropriate error messages and validation to guide users.
+
+Reliability:
+The system should be available for use 24/7 with minimal downtime for maintenance.
+Data integrity should be maintained, and backups should be performed regularly.
+
+Scalability
+The system should be designed to handle increasing numbers of users, projects, and tasks without significant performance degradation.
+
+
+
+
+
+
+
+
+
+
+
+
+-
+
+

@@ -1,0 +1,17 @@
+Business Entity:
+User: A user is a person who accesses the online project management system. Users can have different roles and permissions within the system, such as project manager, team member, or administrator.
+
+Project: A project is a temporary endeavor that is undertaken to create a unique product, service, or result. In an online project management system, a project is typically created by a project manager and assigned to a team.
+
+Task: A task is a specific activity that needs to be completed as part of a project. Tasks can be assigned to individual team members, and their progress can be tracked through the online project management system.
+
+Team: A team is a group of individuals who work together to complete a project. In an online project management system, team members can be assigned to specific tasks and can collaborate with each other through the system.
+
+Client: A client is a person or organization that has requested the project to be completed. Clients may have specific requirements and expectations for the project, and their satisfaction is critical to the success of the project.
+
+Vendor: A vendor is an external organization or individual that provides goods or services to the project. Vendors may be contracted to provide specialized skills or expertise that is not available within the project team.
+
+Stakeholder: A stakeholder is any person or organization that has an interest in the project's outcome. Stakeholders may include investors, regulatory agencies, and other external parties that have a vested interest in the project's success.
+
+These business entities are typically defined in the system's data model, and their relationships are mapped out using entity-relationship diagrams (ERDs) or UML diagrams. The online project management system should be designed to support the unique requirements and interactions of each of these entities, enabling them to work together efficiently and effectively to achieve project success.
+
